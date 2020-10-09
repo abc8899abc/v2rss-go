@@ -85,7 +85,7 @@ func MakeList(d string) []string {
 
 			other = strings.Contains(item, "?remarks=")
 			if other {
-				strsss := strings.Split(item, "?remarks=")
+				strsss := strings.Split(item, "NDM?remarks=")
 				// var strtobyte []byte = []byte(strsss[0])
 				// decodeBytes := make([]byte, base64.StdEncoding.DecodedLen(len(strtobyte))) // 计算解码后的长度
 				// base64.StdEncoding.Decode(decodeBytes, strtobyte)
